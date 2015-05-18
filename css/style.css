@@ -1,0 +1,357 @@
+@import url(http://fonts.googleapis.com/css?family=Syncopate:400,700);
+body{
+	font-family: "Syncopate" arial sans-serif;
+	text-align: center;
+}
+/*HEADER AND CONTENTS*/
+header {
+	position: relative;
+	height: 100vh;
+	background-image:url(../images/nbf_header.jpg);
+	background-position: center bottom;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+header a{
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+}
+nav{
+	height: 60px;
+	width:100%;
+	text-align: right;
+	line-height: 30px;
+	background: rgba(255,255,255,0.4);
+	background: -moz-linear-gradient(left, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 51%, rgba(255,255,255,0.2) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.2)), color-stop(51%, rgba(0,0,0,0.2)), color-stop(100%, rgba(255,255,255,0.2)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 51%, rgba(255,255,255,0.2) 100%);
+	background: -o-linear-gradient(left, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 51%, rgba(255,255,255,0.2) 100%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 51%, rgba(255,255,255,0.2) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0.2) 51%, rgba(255,255,255,0.2) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+.slide{
+	font-size: 18px;
+	margin-right: 40px;
+	margin-top: 15px;
+	color: #ffd100;
+	text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.slide:after {
+    content: '';
+    display: block;
+	margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: all 0.5s;
+}
+.slide:hover:after {
+    width: 100%;
+    background: #ffd100;
+}
+.nav-space{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+}
+h1 a{ 
+	position: fixed;
+	top: 1px;
+	left: 25px;
+	height: 105px;
+	border-top: solid 60px #ffd100;
+	z-index: 100;
+}
+h1 img{
+	height: 100%;
+}
+/*STATEMENTS SECTION*/
+.dgrey{
+	position: relative;
+	height: 320px;
+	width:100%;
+	background-color: #2b2c33;
+}
+.lgrey{
+	height: 320px;
+	width: 100%;
+	background-color: #8F9491;
+}
+.nblack{
+	height:320px;
+	width: 100%;
+	background-color: #0B0A07;
+}
+.threehundred{
+	height: 320px;
+	width: auto;
+	line-height: 320px;
+	display: inline-block;
+}
+.threehundred img{
+	max-height: 100%;
+	max-width: auto;
+	vertical-align: middle;
+}
+div.right{
+	float: right;
+	margin-right: 30px;
+}
+div.left{
+	float: left;
+	margin-left: 30px;
+}
+h2{
+	color: #ffd100;
+	font-size: 26px;
+	display: inline-block;
+	text-align: left;
+	letter-spacing: 3px;
+	line-height: 60px;
+	margin: 100px 50px 0 50px;
+	font-weight: 700;
+}
+/*PACKAGES SECTION*/
+#packages{
+	height: 520px;
+	background-color: #8f9491;
+}
+.thirds{
+	width: 33.333%;
+	float: left;
+	height: 440px;
+	text-align: center;
+}
+.thirds img{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px; 
+}
+#essentials{
+	height: 40px;
+	width: auto;
+	margin-top: 20px;
+}
+#necessities{
+	height: 45px;
+	width: auto;
+	margin-top: 15px;
+}
+#ursa-major{
+	height: 50px;
+	width: auto;
+	margin-top: 10px;
+}
+h3{
+	font-size: 20px;
+	line-height: 24px;
+	margin: 12px;
+}
+h4{
+	margin: 40px;
+	font-size: 14px;
+	line-height: 20px;
+}
+h4 span{
+	color: #ffd100;
+}
+.packages-index{
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	clear: both;
+}
+.packages-index img{
+	width: 40px;
+	height: auto;
+}
+.packages-about {
+	background-color: #8f9491;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	clear: both;
+}
+.packages-about img{
+	width: 40px;
+	height: auto;
+	vertical-align: middle;
+}
+a h2{
+	font-size: 26px;
+	font-weight: 300;
+	color: #0b0a07;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: top;
+	transition: all 0.75s;
+}
+a h2:hover{
+	color: #ffd100;
+}
+/*FOOTER AND CONTENTS*/
+footer {
+	height: 100vh;
+	background-image: url(../images/nbf_footer2.jpg);
+	background-position: center bottom;
+	position: relative;
+}
+h5{
+	color:#ffd100;
+	font-size: 24px;
+	position: absolute;
+	bottom: 25px;
+	left: 10%;
+}
+#facebook{
+	position: absolute;
+	bottom: 25px;
+	right: 7%
+}
+#twitter{
+	position: absolute;
+	bottom: 25px;
+	right: 14%
+}
+#flickr{
+	position: absolute;
+	bottom: 25px;
+	right: 21%
+}
+
+/*FOR MARCEL JS*/
+
+/* account for "Menu" being removed from doc flow... */
+.dock .main, .stop .main { 
+	/*padding-top:; */
+}
+/* when "Head" is out of view... */
+.dock .menu { 
+	z-index:40; 
+	position:fixed;
+	width: 100%;
+}
+/* when "Main" is out of view... */
+.stop .menu { 
+	z-index:40; 
+	position:absolute;
+}
+
+/*FOR ABOUT PAGE*/
+p{
+	font-size: 16px;
+	color: #ffd100;
+	line-height: 24px;
+	padding: 10px 20px 10px 20px;
+}
+p span{
+	font-size: 24px;
+}
+.paragraph{
+	width: calc(100% - 600px);
+	height: 320px;
+	padding: 50px 0 0 0;
+}
+.name{
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	width: calc(100% - 600px);
+	margin-top: 50px;
+}
+/*FOR PACKAGES PAGE*/
+
+.require{
+	width: 80%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+/*FOR GALLERY PAGE*/
+
+.title{
+	height: 140px;
+	width: 100%;
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+.title img{
+	height: 100%;
+	width: auto;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+.abstract{
+	background-color: #8f9491;
+}
+.portrait{
+	background-color: #2b2c33;
+}
+.landscapes{
+	background-color: #0b0a07;
+}
+
+.gallery{
+	height: auto;
+	width:100%;
+}
+.row{
+	padding-bottom: 50px;
+
+}
+.thumbnail{
+	height: 200px;
+	margin: 4px;
+	display: inline-block;
+	text-align: center;
+	border: solid 1px #ffd100;
+	transition: all 0.5s;
+}
+.thumbnail:hover{
+	border: solid 1px #0b0a07;
+}
+.thumbnail img{
+	max-height: 100%;
+	width: auto;
+}
+
+/*LIGHTBOX*/
+#lightbox{
+	background-color: rgba(43,44,51,0.8);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*z-index allows us to order our elements along the z-axis a positive z index pushes things to the front of the page*/
+	/*a negative z-index pushes things to the back*/
+	/*our fixed header already has a positive zindex so we need to use a higher z index here.*/
+	z-index: 60;
+	display:none;
+
+}
+#lightbox img{
+	max-width:90%;
+	max-height: 90%;
+	position:absolute;
+	border: solid 2px #ffd100;
+	padding: 10px;
+	background-color: black;
+	/*make it central*/
+	top:50%;
+	left:50%;
+	/*we can use translate instead of manually working out margins. This works better as it does the calculations dynamically.
+	It moves our image 50% of its width to the left and 50% of its height upwards.*/
+	/*we already moved it 50% down from the top and 50% in from the left - but to the top left corner of the image.*/
+	/*using translate -50% and -50% moves it half the image width back - essentially finding the center point.*/
+	transform: translate(-50%, -50%);
+}

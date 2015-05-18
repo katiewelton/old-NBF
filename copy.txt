@@ -1,0 +1,8 @@
+#rowtwo{
+	height: 50vh;
+	background-image: url(../images/);
+}
+#rowthrww{
+	height: 33.333vh;
+	background-image: url(../images/);
+}
